@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Pink">#A9D248E1</color>
+    <color name="lightpurp">#5F66E3</color>
+    <color name="lightGreen">#7BD87D</color>
+
+    <color name="primaryColour">#F8EBDB</color>
+    <color name="secondaryColour">#000000</color>
+    <color name="accentColour">#FF6B6B</color>
+
+    <color name="onBackground">#00171111</color>
+    <color name="naviBar">#FF6B6B</color>
+    <color name="SecondaryBtn">#B07779D6</color>
+
+</resources>

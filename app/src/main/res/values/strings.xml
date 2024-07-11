@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">My Application1</string>
+
+    <!-- Main categories -->
+    <string name="category_yoga">Yoga</string>
+    <string name="category_pilates">Pilates</string>
+    <string name="category_calisthenics">Calisthenics</string>
+
+    <!-- Actions -->
+    <string name="action_start">Start Now</string>
+    <string name="action_join">Join</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_excercises">excercises</string>
+    <string name="nav_membership">Membership</string>
+    <string name="nav_contactus">Contactus</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Prompts -->
+    <string name="prompt_welcome">Hello, %1$s! Welcome to FitnessFusion.</string> 
+    <string name="prompt_complete_workout">Complete the Workout</string>
+
+    <!-- Messages -->
+    <string name="msg_workout_completed">Workout Completed!</string>
+    <string name="msg_no_internet">No internet connection</string>
+    <string name="msg_fill_required_fields">Please fill in all required fields</string>
+
+    <!-- Error messages -->
+    <string name="error_login_failed">Login failed, please try again</string>
+
+    <!-- Exercise descriptions -->
+    <string name="desc_yoga">Improve your flexibility and reduce stress with Yoga.</string>
+    <string name="desc_pilates">Strengthen your core with Pilates.</string>
+    <string name="desc_calisthenics">Build strength using bodyweight with Calisthenics.</string>
+    <string name="desc_cardio">Boost your heart health with Cardio exercises.</string>
+
+</resources>

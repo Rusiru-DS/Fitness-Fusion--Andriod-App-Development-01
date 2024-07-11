@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DayWorkoutScreen"
+    android:background="@color/primaryColour">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="391dp"
+        android:layout_height="643dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818"
+        tools:layout_editor_absoluteX="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="379dp"
+                android:layout_height="154dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="428dp"
+                    android:layout_height="184dp"
+                    android:background="@color/white"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/p1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Day 1"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStart1"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/accentColour"
+                    android:text="Start Now" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="379dp"
+                android:layout_height="154dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/p2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Day 2"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStart2"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/accentColour"
+                    android:text="Start Now" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="379dp"
+                android:layout_height="154dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/p3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Day 3"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStart3"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/accentColour"
+                    android:text="Start Now" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="379dp"
+                android:layout_height="154dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="354dp"
+                    android:layout_height="145dp"
+                    android:background="@color/white"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/p4" />
+
+                <TextView
+                    android:layout_width="388dp"
+                    android:layout_height="143dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Day 4"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStart4"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/accentColour"
+                    android:text="Start Now" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="379dp"
+                android:layout_height="154dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/p5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Day 5"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStart5"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/accentColour"
+                    android:text="Start Now" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="379dp"
+                android:layout_height="154dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/p6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Day 6"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStart6"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/accentColour"
+                    android:text="Start Now" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="379dp"
+                android:layout_height="154dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/p7" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Day 7"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStart7"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/accentColour"
+                    android:text="Start Now" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="379dp"
+                android:layout_height="154dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/p8" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Day 8"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStart8"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/accentColour"
+                    android:text="Start Now" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="379dp"
+                android:layout_height="154dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/p11" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Day 9"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStart9"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/accentColour"
+                    android:text="Start Now" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="379dp"
+                android:layout_height="154dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/p10" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Day 10"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnStart10"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:backgroundTint="@color/accentColour"
+                    android:text="Start Now" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily-Routines"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="35dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/gobacklogo" />
+
+    <ImageView
+        android:id="@+id/imageViewHOMEBTN"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/img5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
